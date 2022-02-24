@@ -1,0 +1,259 @@
+*{
+  padding:0;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;  
+}
+
+
+.logo {
+  display:flex;
+  align-items:center;
+  width: 350px;
+  height: 250px;
+  background-image: url('imagem/logo.png');
+  background-repeat: no-repeat;  
+  
+}
+
+
+.container {
+  width: 100%;
+  height:100%;
+  padding: 0 5%;
+}
+
+.wrapper1 {
+  position:relative;
+  margin-left: 450px;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  align-items: justify;
+  text-decoration: none;
+}
+
+.menu {
+  height: 60px;
+  
+}
+
+ul {
+  list-style-type:none;
+  display: flex;
+}
+
+li {
+  padding: 5px 10px 0px 10px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+a {
+  color: #fff;
+  text-transform:uppercase;
+  
+}
+
+.facebook {
+  position:absolute;
+  margin:0 1000px;
+  width: 350px;
+  height: 250px;
+  background-image: url('imagem/facebook.png');
+  background-repeat: no-repeat; 
+}
+
+
+main {
+  font-weight: 16px;
+  text-align:center;
+}
+
+.wagner {
+  align-items: center;
+  margin: 0 460px;
+  width:100%; 
+  height: 300px;
+  background-image: url('imagem/Wagner\ Aguado.png');
+  background-repeat:no-repeat; 
+
+}
+
+h1, h4, h2, p {
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+}
+
+.banner {
+  text-justify: justify;
+  text-align: center;
+  margin: 0 50px 0 50px;
+  position: absolute;
+  top: 30%;
+  color: rgb(18, 18, 20);
+   
+}
+
+form {  
+  margin-right: 150px;
+  margin-left: 150px;
+  text-align: justify;
+  text-justify: justify;
+  line-height: normal;
+
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.bulldog {
+  width:100%;
+  height: 95%;
+  background-image: url('imagem/4por1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  position:absolute;
+  z-index: -1;
+}
+  
+.logo3 {
+  width: 350px;
+  height: 250px;
+  position:absolute;
+  top:-30%;
+  right:-15%;
+  opacity: 0.5;
+  background-image: url('imagem/facebook.png');
+  background-repeat: no-repeat; 
+}
+
+h6 {
+  font-size: 0.5rem;
+  text-align: center;
+  text-justify:center;
+  padding: 100px;
+ 
+}
+
+h5 {
+  font-size: 1rem;
+  text-align: center;
+  text-justify:center;
+  padding: 270px 500px;
+  position: absolute;
+}
+
+
+.alinhamento {
+  text-align:justify;
+  text-justify: justify;
+  margin-left:100px;
+  margin-right:100px;
+}
+
+.alinhamento1 {
+  text-align:justify;
+  text-justify: justify;
+  margin-left:100px;
+  margin-right:100px;
+}
+
+.logo1 {
+  position: absolute;
+  margin: 0 100px;
+  width: 300px;
+  height: 280px;
+  background-image: url('imagem/logo1.png');
+  background-repeat: no-repeat;  
+  
+}
+
+.footer {
+  padding: 15px 10px;
+  margin-top: 520px;
+  margin-left:500px;
+  position: absolute;
+  text-align: justify;
+}
+
+.footer1 {
+  padding: 15px 10px;
+  margin-top: 370px;
+  margin-left:500px;
+  position: absolute;
+  text-align: justify;
+
+}
+#nome {
+  color: rgb(7, 6, 6);
+  align-items: center;
+  text-align: center;
+  border: rgb(251, 255, 255);
+}
+
+
+
+.container2 {
+
+  margin: 0px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
+  top: 50px;
+  left:200px;
+  align-items: center;
+  height:100%;
+  width: 95%;
+  display:flex;
+  position:absolute;
+  background-repeat: none;
+
+}
+
+.foto1 {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  height: 30%;
+  width: 30%;
+  position:relative;
+  background-image: url("imagem/caoegato.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+}
+
+.foto2 {
+  margin: 0 0px 0px 0px;
+  padding: 0 0px 0px 0px;
+  height: 30%;
+  width: 30%;
+  display:flex;
+  position:relative;
+  float: center;
+  background-image: url("imagem/bulldog\ frances.png");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: local;
+}
+
+.foto3 {
+  margin: 0px;
+  padding: 0px;
+  height: 30%;
+  width: 30%;
+  display:flex;
+  position:relative;
+  float: center;
+  background-image: url("imagem/foto.png");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: local;
+}
+
+
